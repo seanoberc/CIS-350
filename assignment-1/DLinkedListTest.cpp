@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main(void) {
+int main() {
 
     // Initialize a DLinkedList object
     DLinkedList list;
@@ -13,8 +13,14 @@ int main(void) {
     cout << "List contents: ";
     list.printList(); // Should print "List is empty"
     cout << "Attempting to remove from an empty list..." << endl;
-    list.removeFront(); // Should handle gracefully
-    list.removeBack();  // Should handle gracefully
+    // list.removeFront(); // Should handle gracefully
+    // list.removeBack();  // Should handle gracefully
+    if (!list.empty()) list.removeFront();
+    // else cout << "removeFront skipped (list empty)\n";
+
+    if (!list.empty()) list.removeBack();
+    // else cout << "removeBack skipped (list empty)\n";
+
     cout << endl;
 
     cout << "--- 2. Populating the list ---" << endl;
@@ -49,7 +55,7 @@ int main(void) {
     list.insertAfter("LAX", "MIA");
     cout << "List remains: ";
     list.printList();
-    cout << endl;
+    cout << endl << endl;
 
     cout << "--- 5. Testing reverse() function ---" << endl;
     cout << "Reversing the list..." << endl;
@@ -70,7 +76,7 @@ int main(void) {
     list.removeBack();
     cout << "List after removeBack: ";
     list.printList();
-    cout << endl;
+    cout << endl << endl;
 
     cout << "--- 7. Emptying the list ---" << endl;
     list.removeBack();

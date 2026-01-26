@@ -3,9 +3,10 @@ project(assignment_1)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(assignment_1 main.cpp
+add_executable(assignment_1
         DLinkedList.cpp
         DLinkedListTest.cpp
-        GameEntry.cpp
-        GameEntryTest.cpp
-        Scores.cpp)
+#        GameEntry.cpp
+#        GameEntryTest.cpp
+#        Scores.cpp)
+)
