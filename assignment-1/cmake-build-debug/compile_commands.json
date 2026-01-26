@@ -10,5 +10,23 @@
   "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/assignment_1.dir/DLinkedListTest.cpp.o -c /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/DLinkedListTest.cpp",
   "file": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/DLinkedListTest.cpp",
   "output": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug/CMakeFiles/assignment_1.dir/DLinkedListTest.cpp.o"
+},
+{
+  "directory": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/assignment_1.dir/GameEntry.cpp.o -c /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/GameEntry.cpp",
+  "file": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/GameEntry.cpp",
+  "output": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug/CMakeFiles/assignment_1.dir/GameEntry.cpp.o"
+},
+{
+  "directory": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/assignment_1.dir/GameEntryTest.cpp.o -c /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/GameEntryTest.cpp",
+  "file": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/GameEntryTest.cpp",
+  "output": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug/CMakeFiles/assignment_1.dir/GameEntryTest.cpp.o"
+},
+{
+  "directory": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug",
+  "command": "/usr/bin/c++ -g -std=gnu++20 -arch arm64 -fcolor-diagnostics -o CMakeFiles/assignment_1.dir/Scores.cpp.o -c /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/Scores.cpp",
+  "file": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/Scores.cpp",
+  "output": "/Users/seanoberc/Development/GitHub/CIS-350/assignment-1/cmake-build-debug/CMakeFiles/assignment_1.dir/Scores.cpp.o"
 }
 ]

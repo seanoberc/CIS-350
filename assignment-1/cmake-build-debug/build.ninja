@@ -63,6 +63,27 @@ build CMakeFiles/assignment_1.dir/DLinkedListTest.cpp.o: CXX_COMPILER__assignmen
   OBJECT_DIR = CMakeFiles/assignment_1.dir
   OBJECT_FILE_DIR = CMakeFiles/assignment_1.dir
 
+build CMakeFiles/assignment_1.dir/GameEntry.cpp.o: CXX_COMPILER__assignment_1_unscanned_Debug /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/GameEntry.cpp || cmake_object_order_depends_target_assignment_1
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/assignment_1.dir/GameEntry.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/assignment_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment_1.dir
+
+build CMakeFiles/assignment_1.dir/GameEntryTest.cpp.o: CXX_COMPILER__assignment_1_unscanned_Debug /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/GameEntryTest.cpp || cmake_object_order_depends_target_assignment_1
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/assignment_1.dir/GameEntryTest.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/assignment_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment_1.dir
+
+build CMakeFiles/assignment_1.dir/Scores.cpp.o: CXX_COMPILER__assignment_1_unscanned_Debug /Users/seanoberc/Development/GitHub/CIS-350/assignment-1/Scores.cpp || cmake_object_order_depends_target_assignment_1
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/assignment_1.dir/Scores.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/assignment_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/assignment_1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target assignment_1
@@ -71,7 +92,7 @@ build CMakeFiles/assignment_1.dir/DLinkedListTest.cpp.o: CXX_COMPILER__assignmen
 #############################################
 # Link the executable assignment_1
 
-build assignment_1: CXX_EXECUTABLE_LINKER__assignment_1_Debug CMakeFiles/assignment_1.dir/DLinkedList.cpp.o CMakeFiles/assignment_1.dir/DLinkedListTest.cpp.o
+build assignment_1: CXX_EXECUTABLE_LINKER__assignment_1_Debug CMakeFiles/assignment_1.dir/DLinkedList.cpp.o CMakeFiles/assignment_1.dir/DLinkedListTest.cpp.o CMakeFiles/assignment_1.dir/GameEntry.cpp.o CMakeFiles/assignment_1.dir/GameEntryTest.cpp.o CMakeFiles/assignment_1.dir/Scores.cpp.o
   CONFIG = Debug
   FLAGS = -g -arch arm64
   LINK_FLAGS = -Wl,-search_paths_first -Wl,-headerpad_max_install_names

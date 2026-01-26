@@ -65,3 +65,56 @@ void Scores::insertionSort1(bool ascending = true) {
     }
 }
 
+/*
+* Search the score of a player by name. Return the score if found else return -1.
+ */
+int Scores::searchScore(const string &playerName) const {
+    for (int i = 0; i < numEntries; i++) {
+        if (entries[i].getName() == playerName) {
+            return entries[i].getScore();
+        }
+    }
+
+    return -1;
+}
+
+/*
+ * Calculate and return the average of all scores stored in the Scores list.
+ */
+double Scores::averageMaxScores() const {
+    double result = 0.0;
+
+    if (numEntries == 0) {
+        return 0.0;
+    }
+
+    long long sum = 0;
+    for (int i = 0; i < numEntries; i++) {
+        sum += entries[i].getScore();
+    }
+
+    result = static_cast<double>(sum) / numEntries;
+    return result;
+}
+
+/*
+* Find and return the minimum and maximum scores as a pair of integers.
+ */
+pair<int, int> Scores::findMinMaxScores() const {
+    if (numEntries == 0) {
+        return {0, 0};
+    }
+
+    int minScore = entries[0].getScore();
+    int maxScore = entries[0].getScore();
+
+    for (int i = 1; i < numEntries; i++) {
+        int score = entries[i].getScore();
+        if (score < minScore) {
+            minScore = score;
+        } else if (score > maxScore) {
+            maxScore = score;
+        }
+    }
+    return {minScore, maxScore};
+}

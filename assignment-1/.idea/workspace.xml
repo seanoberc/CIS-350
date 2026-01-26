@@ -3,6 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/LiveTemplatesHousekeeping/HotspotSessionHintIsShown/@EntryValue" value="true" type="bool" />
+  </component>
   <component name="CMakePresetLoader"><![CDATA[{
   "useNewFormat": true
 }]]></component>
@@ -26,17 +29,19 @@
     <list default="true" id="dc1981d0-0746-4ea4-b173-0be834da6b65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DLinkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DLinkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/DLinkedList.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DLinkedListTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DLinkedListTest.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEntryTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/GameEntryTest.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-ef93a85b0729b617f751.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-01-26T18-54-58-0323.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-assignment_1-Debug-5a22c375384fc86fd9ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scores.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Scores.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scores.h" beforeDir="false" afterPath="$PROJECT_DIR$/Scores.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6d65e8d9a02b93b96de1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2026-01-26T21-38-24-0802.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-assignment_1-Debug-1b5ce9d0784b58b27c5c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/assignment_1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/assignment_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/compile_commands.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1769453599350</updated>
-      <workItem from="1769453600610" duration="6953000" />
+      <workItem from="1769453600610" duration="9159000" />
     </task>
     <servers />
   </component>

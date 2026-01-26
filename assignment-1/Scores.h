@@ -4,6 +4,8 @@
 #include "GameEntry.h"
 #include <vector>
 #include <iostream>
+#include <utility>
+
 class Scores {
 public:
     Scores(int maxEnt = 10);
@@ -14,6 +16,11 @@ public:
     void printScores() const;
     int numEnt() const;
     void insertionSort1(bool ascending);
+
+    // TODO
+    int searchScore(const string& playerName) const;
+    double averageMaxScores() const;
+    pair<int, int> findMinMaxScores() const;
 
 private:
     int maxEntries;
