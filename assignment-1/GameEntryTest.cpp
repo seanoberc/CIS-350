@@ -27,7 +27,7 @@ int main() {
     cout << "Initial list of scores:" << endl;
     BAM.printScores();
 
-    // 2. test populated lists
+    // test populated lists
     cout << "\n--- 1. Testing on a populated list ---" << endl;
     cout << "Searching for Rob's score..." << endl;
     int robScore = BAM.searchScore("Rob");
@@ -39,7 +39,7 @@ int main() {
     if (zeldaScore != -1) cout << "Zelda's score is: " << zeldaScore << endl;
     else cout << "Zelda not found." << endl;
 
-    // 3. Calculate average scores:
+    // calculate average scores:
     cout << "Calculating the average score..." << endl;
     // Expected output shows "725" not "725.0"
     cout << "Average score: " << static_cast<int>(BAM.averageMaxScores()) << endl;
@@ -49,7 +49,7 @@ int main() {
     cout << "Minimum score: " << minScore1.first << endl;
     cout << "Maximum score: " << minScore1.second << endl;
 
-    // Run test on empty list:
+    // run test on empty list:
     cout << "\n--- 2. Testing on an empty list ---" << endl;
     Scores emptyScores;
 
@@ -79,7 +79,7 @@ int main() {
    //      if(!entry.getName().empty())
    //          cout << entry.getName() << " : " << entry.getScore() << endl;
    //  }
-    //BAM.printScores();
+   //BAM.printScores();
 
     return 0;
 }

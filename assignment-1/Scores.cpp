@@ -70,11 +70,12 @@ void Scores::insertionSort1(bool ascending = true) {
  */
 int Scores::searchScore(const string &playerName) const {
     for (int i = 0; i < numEntries; i++) {
+        // compare current entry with the target name:
         if (entries[i].getName() == playerName) {
             return entries[i].getScore();
         }
     }
-
+    // if no match is found, just return -1
     return -1;
 }
 
@@ -83,16 +84,16 @@ int Scores::searchScore(const string &playerName) const {
  */
 double Scores::averageMaxScores() const {
     double result = 0.0;
-
+    // return zero if the list is empty:
     if (numEntries == 0) {
         return 0.0;
     }
 
-    long long sum = 0;
+    int sum = 0;
     for (int i = 0; i < numEntries; i++) {
         sum += entries[i].getScore();
     }
-
+    // cast the result as a double
     result = static_cast<double>(sum) / numEntries;
     return result;
 }
@@ -101,10 +102,12 @@ double Scores::averageMaxScores() const {
 * Find and return the minimum and maximum scores as a pair of integers.
  */
 pair<int, int> Scores::findMinMaxScores() const {
+    // return a pair of zeroes if the list is empty
     if (numEntries == 0) {
         return {0, 0};
     }
 
+    // initialize the min and max vals using the score from the first entry
     int minScore = entries[0].getScore();
     int maxScore = entries[0].getScore();
 

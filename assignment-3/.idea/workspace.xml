@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackendCodeEditorMiscSettings">
+    <option name="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=SwitchToGoToActionSuggester/@EntryIndexedValue" value="true" type="bool" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="assignment_3" targetName="assignment_3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dae07b71-304e-46d0-84d5-d2011d4057db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/assignment-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/editor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExprTreeToPostfix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goodrich-ch-3/DS-Algos-CPP/DS-Algos-CPP.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goodrich-ch-3/DS-Algos-CPP/DS-Algos-CPP.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goodrich-ch-3/DS-Algos-CPP/DS-Algos-CPP.xcodeproj/project.xcworkspace/xcuserdata/seanoberc.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goodrich-ch-3/DS-Algos-CPP/DS-Algos-CPP.xcodeproj/xcuserdata/seanoberc.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../goodrich-ch-3/DS-Algos-CPP/DS-Algos-CPP/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/DLinkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/DLinkedList.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/DLinkedListTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/DLinkedListTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/GameEntryTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/GameEntryTest.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/Scores.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/Scores.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/.cmake/api/v1/reply/index-2026-01-26T22-30-05-0467.json" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/.cmake/api/v1/reply/index-2026-01-27T00-05-24-0275.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/assignment_1" beforeDir="false" afterPath="$PROJECT_DIR$/../assignment-1/cmake-build-debug/assignment_1" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="V5PYL9n6" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2025" />
+    <option name="minorVersion" value="3.2" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3AAts1iOoKoFpM8dN8oJRpuEk1b" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="sortByType" value="true" />
+    <option name="sortKey" value="BY_TYPE" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.RadMigrateCodeStyle": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "RunOnceActivity.west.config.association.type.startup.service": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "org.rust.first.attach.projects": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="assignment_3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="assignment_3" TARGET_NAME="assignment_3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="assignment_3" RUN_TARGET_NAME="assignment_3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dae07b71-304e-46d0-84d5-d2011d4057db" name="Changes" comment="" />
+      <created>1772047406403</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772047406403</updated>
+      <workItem from="1772047407792" duration="398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+</project>

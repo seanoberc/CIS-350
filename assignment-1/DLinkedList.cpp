@@ -86,16 +86,16 @@ void DLinkedList::remove(DNode* v) {
 * is found, print a message indicating its position in the list.
  */
 int DLinkedList::find(const Ele& element) {
-    int pos = 1;
-    const DNode *currNode = header->right;
+    int pos = 1;    // begin counting at position 1
+    const DNode *currNode = header->right;  // start at first real node
 
-    while (currNode != trailer) {
+    while (currNode != trailer) {   // traverse list until sentinel is reached
         if (currNode->ele == element) {
             cout << "Element '" << element << "' found at position " << pos << "\n";
             return pos;
         }
-        currNode = currNode->right;
-        ++pos;
+        currNode = currNode->right; // move to the next node
+        ++pos;  // increment the counter
     }
     cout << "Element '" << element << "' not found in the list.\n";
     return -1;  // not found
@@ -115,15 +115,16 @@ newElement) {
             auto *newNode = new DNode;  // Clang-Tidy: Use auto when initializing with new to avoid duplicating the type name
             newNode->ele = newElement;
 
+            // shift the pointers:
             newNode->left = currNode;
             newNode->right = currNode->right;
             currNode->right->left = newNode;
             currNode->right = newNode;
-            return;
+            return; // return after one insertion
         }
         currNode = currNode->right;
     }
-
+    // if `existingElement` is not in the list:
     cout << "Element could not be found.";
 }
 
@@ -135,15 +136,17 @@ newElement) {
 * reverse order.
  */
 void DLinkedList::reverse() {
-    DNode *currNode = header;
+    DNode *currNode = header;   // begin traversing from header sentinel
 
+    // swap left and right pointers for each node in list:
     while (currNode != nullptr) {
         DNode *temp = currNode->left;
         currNode->left = currNode->right;
         currNode->right = temp;
-        //
+        // move "forward" in the original direction:
         currNode = currNode->left;
     }
+    // swap header and trailer sentinels:
     DNode *temp = header;
     header = trailer;
     trailer = temp;
@@ -167,13 +170,6 @@ void DLinkedList::addBack(const Ele& e) {
  * Remove an element from the back of the list.
  */
 void DLinkedList::removeBack() {
-    // if (trailer->left == header) {
-    //     cout << "The list is empty.\n";
-    // }
-    // DNode *nodeToRemove = trailer->left;
-    // nodeToRemove->left->right = trailer;
-    // delete nodeToRemove;
-
     if (empty()) {
         return;
     }
